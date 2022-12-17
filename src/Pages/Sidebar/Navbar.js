@@ -1,5 +1,6 @@
 import React from "react";
 import MenuItem from "./MenuItem";
+import jm from "../../assets/jm.jpg";
 
 const Navbar = () => {
   return (
@@ -25,11 +26,7 @@ const Navbar = () => {
             data-dropdown-placement="bottom"
           >
             <span class="sr-only">Open user menu</span>
-            <img
-              class="w-8 h-8 rounded-full"
-              src="/docs/images/people/profile-picture-3.jpg"
-              alt="user"
-            />
+            <img class="w-8 h-8 rounded-full" src={jm} alt="user" />
           </button>
 
           <div
